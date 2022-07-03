@@ -256,31 +256,22 @@ ul {
       }
 }
 
-
-
 .gallery-conatiner {
     display: flex;
-    margin: 20px 20px;
+    margin: 20px 40px;
     padding: 30px 30px;
-    margin-top: 270px;
-
+    margin-top: 16%;
+    justify-content: space-between;
 
 }
 
-
-.gallery-text {
-    display: flex;
-    flex: 0 1 45%;
-}
-
-.gallery-text .gallery-main-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gallery-main-text{
+    display: flex ;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 6%;
 
 }
-
 
 .gallery-main-text h1 {
     font-family: 'Big Shoulders Display';
@@ -295,62 +286,67 @@ ul {
 }
 
 .gallery-main-text p {
+   
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
     line-height: 32px;
-    width: 55%;
+    width:60%;
     margin: 10px 10px;
     color: #444444;
-   
+    text-align: start;
+
 
 }
 
 .gallery-image {
-    flex: 0 2 44%;
+    display: flex;
+    justify-content: center;
 
 }
 .gallery-image img{
-    width: 100%;
+    width: 80%;
+    margin-right: 13%;
+      object-fit: cover;
 
 }
 
 @media screen and (max-width: 768px) {
-    .gallery-conatiner {
-        display: flex;
-        margin: 10px 10px;
-        padding: 20px 20px;
-        margin-top: 130px;
+   
+   .gallery-main-text {
+       display: flex;
+       flex-direction: column;
+
+     margin: 10px;
+       
+       margin-left: -9%;
+
+   }
 
 
-    }
-  .gallery-text {
-      display: flex;
-      flex: 0 1 50%;
-  }
+.gallery-main-text h1 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 33px;
 
-  .gallery-main-text p {
-   font-family: 'Outfit';
-   font-style: normal;
-   font-weight: 300;
-   font-size: 18px;
-   line-height: 28px;
-    width: 80%;
-   color: #444444;
+}
+.gallery-image img {
+    object-fit: cover;
+    width: 100%;
+    margin-right: -10%;
+
+}
+.gallery-main-text p {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    width: 100%;
+
+}
 
 
-  }
-
-  .gallery-image {
-      flex: 0 2 48%;
-
-  }
-
-  .gallery-image img {
-      width: 100%;
-
-  }
 }
 
 
@@ -402,101 +398,67 @@ ul {
 
 }
 
+.gallery-main-text21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 20px;
 
-.gallery-main-text2 {
- display: flex;
- flex-direction: column;
-justify-content: flex-start;
-text-align: start;
-    margin-left: 2%;
-    bottom:10%;
-    position: absolute;
 }
 
-.gallery-main-text2 h1 {
+
+.bg {
+    display: flex;
+    background-image: url('../assets/desktop/dark-bg-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+    justify-content: center;
+    height: 47%;
+}
+
+.gallery-main-text21 h1 {
     font-family: 'Big Shoulders Display';
     font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 18px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 25px;
     text-transform: uppercase;
     margin: 10px 10px;
-    color: #f0eaea;
+    color: white
 }
 
-.gallery-main-text2 p {
+.gallery-main-text21 p {
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 16px;
-    width: 55%;
+    width: 65%;
     margin: 10px 10px;
-    color: #f3eeee;
-
+    color: white
 }
 
 @media screen and (max-width: 768px) {
-    .gallery-main-text2 {
-     bottom: 14%;
-    }
-
-    .gallery-main-text2 h1 {
-         font-weight: 900;
-        font-size: 20px;
-        line-height: 18px;
-       
-
-    }
-
-    .gallery-main-text2 p {
-
-        font-weight: 250;
-        font-size: 17px;
-        line-height: 16px;
-
-    }
-
-}
-@media screen and (min-width: 900px) {
-    .gallery-main-text2 {
-     bottom: 12%;
-    }
-
-    .gallery-main-text2 h1 {
-         font-weight: 900;
-        font-size: 25px;
-        line-height: 22px;  
-    
-    }
-
-    .gallery-main-text2 p {
-      font-weight: 250;
-        font-size: 19px;
-        line-height: 17px;
-
-    }
-}
-@media screen and (min-width: 1200px) {
-    .gallery-main-text2 {
-     bottom: 13%;
-    }
-
-    .gallery-main-text2 h1 {
-         font-weight: 900;
-        font-size: 35px;
-        line-height: 30px;
-    
-    }
-
-    .gallery-main-text2 p {
-      font-weight: 450;
-        font-size: 25px;
+    .gallery-main-text21 h1 {
+      
+        font-weight: 900;
+        font-size: 22px;
         line-height: 23px;
+       
+       
+    }
+
+    .gallery-main-text21 p {
+     
+        font-size: 16px;
+        line-height: 16px;
+        width: 70%;
+        margin: 5px 5px;
 
     }
 }
-
 
 .footer-container {
     display: flex;
@@ -553,4 +515,20 @@ text-align: start;
 .footer-media ul li {
     margin: 15px;
     color: white;
+}
+@media screen and (max-width: 768px) {
+.footer-header h1 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 27px;
+
+
+}
+
+.footer-text p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
 }
