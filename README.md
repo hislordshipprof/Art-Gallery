@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+# Art-Gallery
+This is a Art Gallery website showcasing list of available arts
+Built With the following stack HTML CSS 
+## Getting Started
 
-You can use the [editor on GitHub](https://github.com/hislordshipprof/Art-Gallery/edit/mobile-view/README.md) to maintain and preview the content for your website in Markdown files.
+##To get a local copy up and running follow these simple example steps.
+1-Click on Code button.
+2-Click on the link to copy it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    Prerequisite
 
-### Markdown
+In order to use npm, node packages must be installed 2. Installation go to your terminal and git clone the repo link you copied install npm modules
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+npm i
 
-```markdown
-Syntax highlighted code block
+###To install necessary dependencies,
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+3. Demo Result
 
-1. Numbered
-2. List
+npm start
 
-**Bold** and _Italic_ and `Code` text
+Live Demo Link
+4. Builds for publish
 
-[Link](url) and ![Image](src)
-```
+npm run build
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Authors
 
-### Jekyll Themes
+👤 Benjamin Agyekum
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hislordshipprof/Art-Gallery/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    GitHub:@githubhandle
+    LinkedIn:benjamin-agyekum
 
-### Support or Contact
+🤝 Contributing
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+Show your support
+
+Give a ⭐️ if you like this project!
+Acknowledgments
+
+📝 License
+
+This project is MIT licensed.
